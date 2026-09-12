@@ -1,0 +1,14 @@
+trigger:
+- main
+
+pool:
+  name: Default
+  demands:
+  - Agent.Name -equals DESKTOP-NN9BP9S
+
+steps:
+- script: echo "Hello from Self-Hosted Mac Agent"
+  displayName: 'Hello World'
+
+- script: hostname
+  displayName: 'Check Hostname'
