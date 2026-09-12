@@ -7,8 +7,8 @@ pool:
   - Agent.Name -equals DESKTOP-NN9BP9S
 
 steps:
-- script: echo "Hello from Self-Hosted Mac Agent"
+- script: echo "Hello from Self-Hosted Windows Agent"
   displayName: 'Hello World'
 
 - script: hostname
-  displayName: 'Check Hostname'
+  displayName: 'Check Windows Hostname'
