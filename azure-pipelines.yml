@@ -5,7 +5,3 @@ pool:
   name: Default
   demands:
   - Agent.Name -equals DESKTOP-NN9BP9S
-
-steps:
-- script: echo Hello from Windows Self-Hosted Agent
-- script: hostname
