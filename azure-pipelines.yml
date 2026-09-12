@@ -8,4 +8,4 @@ pool:
 
 steps:
 - script: echo Hello from Windows Self-Hosted Agent
-- script: ls
+- script: hostname
