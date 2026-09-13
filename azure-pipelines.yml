@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  name: Default
+  name: windows
   demands:
   - Agent.Name -equals DESKTOP-NN9BP9S
 
